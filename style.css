@@ -102,7 +102,9 @@ a:hover {
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
-
+.sizeParagraph {
+    font-size: 20px;
+}
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -824,6 +826,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+.size-paragraph {
+    font-size: 15px;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {

@@ -2014,7 +2014,7 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
 }
-
+/*
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,
@@ -2083,6 +2083,7 @@ pre code {
 .col-xs-9 {
     float: left
 }
+*/
 
 .col-xs-12 {
     width: 100%
