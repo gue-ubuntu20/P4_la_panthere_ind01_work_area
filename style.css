@@ -90,10 +90,12 @@ a:hover {
     right: 0;
 }
 
+/*
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 281px 280px;
 }
+*/ 
 
 .b-parallax {
     background-attachment: fixed;
@@ -710,6 +712,10 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+.size-text {
+    font-size: 22px;
+    line-height: 1.4em;
+}
 
 h3 {
     font-size: 15px;
@@ -831,7 +837,9 @@ h4 {
 .size-paragraph {
     font-size: 15px;
 }
-
+.tc-blue {
+    text-decoration: blue;
+}
 
 @media (max-width: 1024px) {
     .bloc {
