@@ -71,7 +71,8 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<p class="send-message">Envoyez votre message</p>
+				<form id="form_1">
 					<div class="form-group">
 						<label for="nom">
 							Nom
@@ -85,15 +86,15 @@
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label for="message 1">
+						<label for="message_1">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="message 1" />
+						<input class="form-control" type="email" required id="message_1" />
 					</div>
 					<div class="form-group">
-						<label for="message 2">
+						<label for="message_2">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message 2" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message_2" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="button send">
 						Envoyer
